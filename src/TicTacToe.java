@@ -56,7 +56,7 @@ public class TicTacToe {
     }
     public static void placePieceFirstPlayer(char[][] Board, int playerX, String user){
 
-        if (user.equals("playerX")){
+        if (user.equals("playerX")){ // This part need to be fixed
             playerXPositions.add(playerX);
         }
 
@@ -92,7 +92,7 @@ public class TicTacToe {
     }
     public static void placePieceSecondPlayer(char[][] Board, int playerO, String user){
 
-        if (user.equals("playerO")){
+        if (user.equals("playerO")){ // this part need tobe fixed
             playerOPositions.add(playerO);
         }
         switch (playerO){ // keicia tarpa i atitinkama simboli 0
